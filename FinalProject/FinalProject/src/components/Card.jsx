@@ -147,7 +147,6 @@ const Card = (props) => {
       cardTop: cardRect.top
     });
     // setCardPosition({ cardLeft: cardRect.left, cardTop: cardRect.top });
-    console.log(cardRect);
 
     setModal(true);
   };

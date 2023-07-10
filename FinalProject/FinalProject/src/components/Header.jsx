@@ -26,7 +26,6 @@ const Header = () => {
 
   const userMenuHandler = () => {
     setUserMenu(true);
-    // navigate("/favorites");
   };
   const backHomeHandler = () => {
     navigate("/");

@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
 //components
 import Header from "@/components/Header";
 import SearchRecipeForm from "@/components/SearchRecipeForm";
-import RandomMenu from "@/components/RandomMenu";
 import Footer from "@/components/Footer";
 
 //key
@@ -118,7 +117,7 @@ const Home = () => {
           onLoad={handleImageLoad}
         />
       )}
-      {datas && !isLoading ? (
+      {/* {datas && !isLoading ? (
         <RandomMenu datas={datas} isMobile={isMobile} />
       ) : (
         <div
@@ -143,7 +142,7 @@ const Home = () => {
           </svg>
           <span className="sr-only">Loading...</span>
         </div>
-      )}
+      )} */}
       <Footer></Footer>
     </div>
   );
